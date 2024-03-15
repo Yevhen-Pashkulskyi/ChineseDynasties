@@ -9,7 +9,8 @@ public class App {
 
         System.out.println("Лі Power = "+liDynasties.totalPower(13, 24, 46));
 
-        double minTotalPower = minDynasties.totalPower(9, 35, 12) * COEFFICIENT;
+        double minTotalPower = minDynasties.totalPower(9, 35, 12)
+                * COEFFICIENT;
         System.out.println("Мінь power = "+minTotalPower);
     }
 }
